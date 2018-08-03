@@ -1,0 +1,162 @@
+/* 
+========
+============    Global
+===================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.custom-container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+/* 
+========
+============    Header
+===================== */
+
+header{
+    background-image: url(../img/img.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color:  #262626;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 487px;
+    /* margin-left: 165px; */
+}
+/* 
+========
+============    Header Navigation
+===================== */
+nav li a{
+    color:  #262626;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: right;
+    margin-top: 69px;
+    text-transform: uppercase;
+}
+
+nav{
+    background-color: transparent;
+}
+
+nav ul{
+    max-width: 557px;;
+}
+/* 
+========
+============    Header Content
+===================== */
+.header-content{
+    margin-top: 258px;
+}
+
+.header-content h1{
+    color:  #262626;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: left;
+    padding-bottom: 34px;
+}
+
+.header-content p{
+    color:  #262626;
+    font-size: 17px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 27px;/* Approximation due to font substitution */
+    text-align: left;
+    max-width: 368px;
+    padding-bottom: 31px;
+}
+
+.btn-custom-header{
+    background-color:  #ff6033;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 55px;
+    color:  #ffffff;
+    font-size: 20px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 27px;/* Approximation due to font substitution */
+    text-transform: uppercase;
+}
+
+header img{
+    width: 38px;
+    height: 40px;
+    display: block;
+    margin: 168px auto 0;
+    animation-name: myscroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+@keyframes myscroll{
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-20px)
+    }
+
+    100%{ transform: translateY(1px)
+
+    }
+}
+/* 
+========
+============    Section
+===================== */
+section h2{
+    font-size: 90px;
+    font-weight: 700;
+}
+/* 
+========
+============    Section About
+===================== */
+.about{
+    background-color: #00c4c4;
+    color:  #ffffff;
+}
+.about-wrapper{
+    margin-bottom: 70px;
+}
+.about-column-2{
+    margin-left: 94px;
+} 
+.about img{
+    max-width: 566px;
+    max-height: 559px;
+    margin-top: 71px;
+}
+.about h2{
+    margin-top: 180px;
+}
+.about p{
+    max-width: 499px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+}
+
+
+

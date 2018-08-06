@@ -78,9 +78,9 @@ nav ul{
 
 .header-content p{
     color:  #262626;
-    font-size: 17px;/* Approximation due to font substitution */
+    font-size: 17px;
     font-weight: 300;
-    line-height: 27px;/* Approximation due to font substitution */
+    line-height: 27px;
     text-align: left;
     max-width: 368px;
     padding-bottom: 31px;
@@ -92,9 +92,9 @@ nav ul{
     width: 200px;
     height: 55px;
     color:  #ffffff;
-    font-size: 20px;/* Approximation due to font substitution */
+    font-size: 20px;
     font-weight: 300;
-    line-height: 27px;/* Approximation due to font substitution */
+    line-height: 27px;
     text-transform: uppercase;
 }
 
@@ -137,7 +137,7 @@ section h2{
     color:  #ffffff;
 }
 .about-wrapper{
-    margin-bottom: 70px;
+    padding-bottom: 40px;
 }
 .about-column-2{
     margin-left: 94px;
@@ -158,5 +158,91 @@ section h2{
     text-align: left;
 }
 
+/* 
+========
+============    Section Services
+===================== */
 
+.services{
+    background-color:  #70bfff;
+    box-sizing: border-box;
+}
+.services-content-wrapper .column-1{
+    margin: 179px 208px 151px 0;
+}
+.services-box{
+    background-color:  #ffffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.services-box p{
+    color:  #262626;
+    font-size: 20px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 27px;/* Approximation due to font substitution */
+    padding-left: 32px;
+    text-transform: capitalize;
+    position: relative;
+}
 
+.services-box img{
+width: 55px;
+height: 55px;
+margin-right: 22px;
+}
+.services .column-2{
+    position: relative;
+}
+.services .column-2 h2{
+    position: absolute;
+    color: #fff;
+    top: 331px;
+    white-space: nowrap;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.services .column-2 img{
+    width: 462px;
+    height: 527px;
+    margin-top: 100px;
+}
+
+/* 
+========
+============    Section Gallery
+===================== */
+
+.gallery{
+    background-color:  #ffe92f;
+}
+
+.section-gallery-wrapper h2{
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.section-gallery-wrapper p{
+    max-width: 577px;
+    margin: 0 auto;
+    color:  #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 46px;
+}
+.gallery-col-1{
+    margin-right: 30px;
+}
+.gallery-col-1 img{
+    max-width: 770px;
+    max-height: 550px;
+}
+
+.gallery-col-2 img{
+    max-width: 370px;
+    max-height: 260px;
+}

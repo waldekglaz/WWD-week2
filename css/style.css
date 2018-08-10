@@ -452,5 +452,86 @@ section h2{
 .contact p:first-child{
     padding: 48px 579px;
 }
+.contact-content-wrapper{
+    margin-top: 46px;
+}
+.form-title{
+    width: 500px;
+    height: 50px;
+    background-color:  rgba(0,196,196,.4);
+    margin-bottom: 15px;
+}
+.form-title h3{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    padding: 15px 0 15px 20px;
+    box-sizing: border-box;
+    border-left: solid 5px #355b82;
+}
 
 
+.contact-form-wrapper input,
+.contact-form-wrapper textarea{
+    background-color:  rgba(0,196,196,.4);
+    border: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px 0 15px 20px;
+    color: #fff;
+}
+
+.contact-form-wrapper input::placeholder,
+.contact-form-wrapper textarea::placeholder{
+    color: #fff;
+}
+
+.contact-form-wrapper textarea{
+    height: 250px;
+    resize: none;
+}
+
+.contact-content-col2{
+    text-align: left;
+}
+
+.contact-content-col2 h3{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.contact-content-col2 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+/* 
+========
+============    Footer
+===================== */
+
+footer{
+    background-color:  #262626;
+    color:  #b9b9b9;
+    padding: 32px 0;
+}
+
+.footer-1{
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.footer-2{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer-3 span{
+    color:  #ff2b58;
+    font-weight: 700;
+}

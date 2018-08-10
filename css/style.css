@@ -67,6 +67,10 @@ header{
     line-height: 27px;
     text-transform: uppercase;
 }
+.btn-custom-2:hover,
+.btn-custom-2:focus{
+    background-color: #749709;
+}
 
 .btn-blog{
     background-color:  #f72b3b;
@@ -74,6 +78,22 @@ header{
     color:  #ffffff;
     font-size: 20px;
     font-weight: 300;
+}
+.btn-custom-header{
+    background-color:  #ff6033;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 55px;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.btn-custom-header:hover,
+.btn-custom-header:focus{
+    background-color: #dd4011;
 }
 /* 
 ========
@@ -123,17 +143,7 @@ nav ul{
     padding-bottom: 31px;
 }
 
-.btn-custom-header{
-    background-color:  #ff6033;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-    width: 200px;
-    height: 55px;
-    color:  #ffffff;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 27px;
-    text-transform: uppercase;
-}
+
 
 header img{
     width: 38px;
@@ -213,6 +223,10 @@ section h2{
     width: 400px;
     height: 100px;
     margin-bottom: 20px;
+}
+.services-box:hover,
+.services-box:focus{
+    opacity: .8;
 }
 .services-box p{
     color:  #262626;

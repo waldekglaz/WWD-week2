@@ -132,6 +132,7 @@ nav ul{
 ===================== */
 .header-content{
     margin-top: 258px;
+    text-align: left;
 }
 
 .header-content h1{
@@ -139,7 +140,6 @@ nav ul{
     font-size: 60px;
     font-weight: bold;
     line-height: 25px;
-    text-align: left;
     padding-bottom: 34px;
 }
 
@@ -148,7 +148,6 @@ nav ul{
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-    text-align: left;
     max-width: 368px;
     padding-bottom: 31px;
 }
@@ -185,6 +184,9 @@ section h2{
     font-size: 90px;
     font-weight: 700;
 }
+section{
+    padding: 90px 0;
+}
 /* 
 ========
 ============    Section About
@@ -193,28 +195,20 @@ section h2{
     background-color: #00c4c4;
     color:  #ffffff;
 }
-.about-wrapper{
-    padding-bottom: 40px;
-}
-.about-column-2{
-    margin-left: 6.3%;
-} 
+
+
 .about img{
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 71px;
-}
-.about h2{
-    margin-top: 25.7%;
-}
-.about p{
-    max-width: 499px;
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 27px;
-    text-align: left;
+    width: 566px;
+    height: 559px;
+    margin-left: -40px;
 }
 
+.about h2{
+    margin-top: 110px;
+}
+.about-col-2{
+    margin-left: 94px;
+}
 /* 
 ========
 ============    Section Services
@@ -224,9 +218,7 @@ section h2{
     background-color:  #70bfff;
     box-sizing: border-box;
 }
-.services-content-wrapper .column-1{
-    margin: 22.7% 13.9% 19.1% 0;
-}
+
 .services-box{
     background-color:  #ffffff;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
@@ -259,7 +251,8 @@ section h2{
 .services .column-2 h2{
     position: absolute;
     color: #fff;
-    top: 331px;
+    top: 190px;
+    left: 130px;
     white-space: nowrap;
     font-size: 90px;
     font-weight: 700;
@@ -268,7 +261,7 @@ section h2{
 .services .column-2 img{
     max-width: 462px;
     max-height: 527px;
-    margin-top: 100px;
+    margin-left: 168px;
 }
 
 /* 
@@ -279,9 +272,7 @@ section h2{
 .gallery{
     background-color:  #ffe92f;
 }
-.section-gallery-wrapper{
-    padding: 100px 0 120px;
-}
+
 .section-gallery-wrapper h2{
     /* padding-top: 100px; */
     padding-bottom: 28px;
@@ -312,6 +303,7 @@ section h2{
 }
 .gallery-col-2{
     height: 550px;
+    flex-direction: column;
 }
 .gallery-col-2 img{
     width: 370px;
@@ -369,7 +361,6 @@ section h2{
 
 .blog{
     background-color:  #b07cf7;
-    padding: 100px 0 120px;
     text-align: center;
 }
 
@@ -564,6 +555,12 @@ footer{
 ========
 ============    Media Queries
 ===================== */
+@media (max-width: 328px){
+    .header-content h1{
+        font-size: 40px;
+        padding-bottom: 34px;
+    }
+}
 @media (max-width:350px){
     header{
         height: 70vh;
@@ -576,9 +573,72 @@ footer{
         text-align: center;
     }
 }
+
 @media (max-width:991px){
     .navbar-nav{
         background-color: rgba(255,255,255,0.7);
         text-align: left;
     }
+    .header-content{
+        text-align: center;
+    }
+    .header-content p{
+        margin: 0 auto;
+    }
+    .about img{
+        margin: 0 auto;
+    }
+    .about h2{
+        margin-top: 30px;
+    }
+    .about-col-2{
+        margin:0 auto;
+        text-align: center;
+    }
+    .services-box{
+        margin: 20px auto 0;
+    }
+    .services .column-2 img{
+        margin: 20px auto 0;
+    }
+    .services .column-2 h2{
+        top: 190px;
+        left: 70px;
+    }
 }
+@media (max-width:1200px){
+    .about img{
+        max-width: 466px;
+        max-height: 459px;
+    }
+    
+    .about h2{
+        margin-top: 50px;
+    }
+    .about-col-2{
+        margin-left: 44px;
+    }
+    
+    .services .column-2 img{
+        max-width: 462px;
+        max-height: 427px;
+        margin-left: 44px;
+    }
+    .services .column-2 h2{
+        top: 190px;
+        left: 100px;
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1292px){
+    .gallery-wrapper-1{
+        flex-direction: column;
+    }
+    .gallery-col-2{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .gallery-wrapper-1{
+        margin-bottom: 0;
+    }

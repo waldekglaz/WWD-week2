@@ -572,6 +572,9 @@ footer{
         margin: 100px auto 0;
         text-align: center;
     }
+    header img{
+        margin-top: 50px;
+    }
 }
 
 @media (max-width:991px){
@@ -587,6 +590,7 @@ footer{
     }
     .about img{
         margin: 0 auto;
+        display: block;
     }
     .about h2{
         margin-top: 30px;
@@ -642,3 +646,4 @@ footer{
     .gallery-wrapper-1{
         margin-bottom: 0;
     }
+}
